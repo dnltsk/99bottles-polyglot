@@ -11,11 +11,10 @@ class BeerSongTest {
         assertEquals(expected, BeerSong.verse(99))
     }
 
-    @Ignore
     @Test
     fun lastGenericVerse() {
         val expected = "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.\n"
-        //assertEquals(expected, BeerSong.verse(3))
+        assertEquals(expected, BeerSong.verse(3))
     }
 
     @Ignore
