@@ -47,7 +47,6 @@ class BeerSongTest {
         assertEquals(expected, BeerSong.verses(2, 0))
     }
 
-    @Ignore
     @Test
     fun allVerses() {
         val expected =
@@ -351,7 +350,7 @@ Take it down and pass it around, no more bottles of beer on the wall.
 No more bottles of beer on the wall, no more bottles of beer.
 Go to the store and buy some more, 99 bottles of beer on the wall.
 """
-        //assertEquals(expected, BeerSong.verses(99, 0))
+        assertEquals(expected, BeerSong.verses(99, 0))
     }
 
 }
